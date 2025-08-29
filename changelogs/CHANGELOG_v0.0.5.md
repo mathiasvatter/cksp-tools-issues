@@ -1,27 +1,19 @@
-# Changelog von v0.0.4 bis v0.0.5
+# Changelog
 
-- Publish Release: v0.0.5
-- Merge remote-tracking branch 'origin/main'
-- Update write_changelog.sh and workflow
-- Publish Release: v0.0.5
-- Update workflow
-- Update workflow
-- Update workflow again
-- Update workflow again
-- Update workflow again
-- Update workflow
-- Change branch name
-- Update workflow again
-- Update workflow
-- Merge branch 'development'
-- Add submodule; Add github workflow script; Update bash scripts
-- Fix incorrect inlay hints placement when function parameters are on multiple lines; Add Documentation and Issue report button to KT sidebar
-- Merge branch 'development'
-- Kill all ununsed cksp versions from 0.0.5
-- Merge branch 'main' into development
-- Update changelogs
-- Merge branch 'development'
-- Update to version 0.0.5; Update Welcome notes
-- Fix semantic highlighting for defines and macros
-- Add semantic highlighting for defines and macros; Update syntax highlighting for preprocessor commands like USE_CODE_IF and START_INC
-- Add new icons; Add keyword highlighting for default and exit
+## \[0.0.5] - 2025-08-25
+
+### Added
+
+* New **semantic highlighting** for:
+
+  * `defines` and `macros`
+  * Preprocessor commands like `USE_CODE_IF` and `START_INC`
+* Keyword highlighting for `default` and `exit`.
+* **Documentation** and **Issue Report** buttons added to the CKSP sidebar in VS Code.
+* New icons for improved visual clarity in the CKSP plugin.
+
+### Fixed
+
+* Corrected **semantic highlighting issues** when function parameters spanned multiple lines.
+* Improved **inlay hint positioning** for multiline function signatures.
+
