@@ -1,6 +1,9 @@
 # Changelog von v0.0.4 bis v0.0.5
 
 - Publish Release: v0.0.5
+- Merge remote-tracking branch 'origin/main'
+- Update write_changelog.sh and workflow
+- Publish Release: v0.0.5
 - Update workflow
 - Update workflow
 - Update workflow again
