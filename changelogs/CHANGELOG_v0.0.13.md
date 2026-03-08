@@ -1,6 +1,6 @@
 # Changelog
 
-## [v0.0.13] - 2025-10-07
+## [v0.0.13] - 2026-02-21
 
 ### Added
 * **Rudimentary parsing of `.nki` metadata** with metadata section when opening an instrument in the custom NKI editor.
