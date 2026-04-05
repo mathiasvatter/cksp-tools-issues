@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest an idea for this project
+title: "[FEATURE] "
+labels:
+  - enhancement
+projects: ["CKSP"]
+assignees: mathiasvatter
+body:
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: Feature Description
+      description: A clear and concise description of what the feature is and what it aims to achieve.
+      placeholder: Describe the feature and the outcome you want.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem it Solves
+      description: Explain the problem you're facing that this feature would solve.
+      placeholder: What is hard or missing today?
+    validations:
+      required: true

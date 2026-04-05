@@ -1,0 +1,68 @@
+name: Bug report
+description: Create a report to help us improve
+title: "[BUG] "
+labels:
+  - bug
+projects: ["CKSP"]
+assignees: mathiasvatter
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: Tell us what happened and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Open '...'
+        2. Click '...'
+        3. Run '...'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: If applicable, add a screenshot to help explain your problem.
+      placeholder: Paste screenshots or any additional visual context here.
+    validations:
+      required: false
+  - type: input
+    id: cksp_tools_version
+    attributes:
+      label: CKSP Tools Version
+      description: Specify the version of CKSP Tools you are using.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: operating_system
+    attributes:
+      label: Operating System
+      description: Your operating system.
+      placeholder: Windows / macOS / Linux
+    validations:
+      required: false
+  - type: input
+    id: os_architecture
+    attributes:
+      label: OS Architecture
+      description: Your operating system architecture.
+      placeholder: x64 / arm64
+    validations:
+      required: false
+  - type: input
+    id: vscode_version
+    attributes:
+      label: VS Code Version
+      description: The VS Code version you are using.
+      placeholder: "1.99.0"
+    validations:
+      required: false
