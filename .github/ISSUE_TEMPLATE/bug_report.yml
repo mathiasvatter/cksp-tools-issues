@@ -47,7 +47,7 @@ body:
     attributes:
       label: Operating System
       description: Your operating system.
-      placeholder: Windows / macOS / Linux
+      placeholder: macOS / Windows / Linux
     validations:
       required: false
   - type: input
@@ -55,7 +55,7 @@ body:
     attributes:
       label: OS Architecture
       description: Your operating system architecture.
-      placeholder: x64 / arm64
+      placeholder: arm64 / x86_64
     validations:
       required: false
   - type: input
