@@ -4,7 +4,7 @@ Public repository for the VS Code extension 'cksp tools'
 Welcome to the public issue tracker for `cksp-tools`, a VS Code extension build around the cksp compiler bringing IDE Features like Syntax Highlighting, Workspace Symbol Provider, Inlay Hints as well as running Kontakt and reading its log messages.
 
 ## How to Use This Repository
-This repository and its issue tracker are **only** intended for matters regarding the extension and its features, not for the `cksp` compiler itself. If you encounter bugs with `cksp`, please use its own [public issue tracker](https://github.com/mathiasvatter/cksp-compiler-issues/issues).
+This repository and its issue tracker are **only** intended for matters regarding the extension and its features, not for the `cksp` compiler itself. If you encounter bugs with `cksp`, please use its own [public issue tracker](https://github.com/mathiasvatter/cksp-compiler/issues).
 However, if you have encountered an issue or have a suggestion for how we can improve the VS Code Plugin, I encourage you to open an issue here.
 
 ### Reporting Bugs
